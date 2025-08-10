@@ -1,9 +1,9 @@
-arr =[1,0,8,4,0,0,2,7,0,6,0]
+arr =[1,0,8,4,0,0,2,7,8,6,6]
 
 a = 0
 b = 0
 while True:
-    if b == len(arr)-1:
+    if b == len(arr):
         break
     if arr[a] !=0 and arr[b]!= 0:
         a += 1
